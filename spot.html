@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head lang="ja">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spot</title>
+  <!-- FontAwesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css">
+  <!-- GoogleFonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Russo One-->
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&amp;display=swap" rel="stylesheet">
+  <!-- cssファイル-->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="page">
+  <!-- header-->
+  <header class="header">
+    <div class="header__container"><span class="header__icon-bars icon--size_xl fa-solid fa-bars"></span>
+      <h1 class="header__title title-brand title-brand--size_l">Camp</h1><span class="header__icon-search icon--size_xl fa-solid fa-magnifying-glass"></span>
+      <form class="header__form-search header__form-search--hidden" action="" method="" name="form1">
+        <input class="input-main input-main--size_s input-main--radius" type="text" name="input1">
+      </form><span class="header__icon-cancel header__icon-cancel--hidden icon--size_xl fa-solid fa-xmark"></span>
+    </div>
+    <nav class="header__left-drawer header__left-drawer--hidden">
+      <ul class="column-list column-list--size_s">
+        <li class="column-list__item column-list__item--separate column-list__item--wide"><a class="column-list__link" href="#"></a><span class="column-list__left-icon fa-solid fa-heart"></span><span>ナビのタイトル</span></li>
+        <li class="column-list__item column-list__item--separate column-list__item--wide"><a class="column-list__link" href="#"></a><span class="column-list__left-icon fa-solid fa-heart"></span><span>ナビのタイトル</span></li>
+        <li class="column-list__item column-list__item--separate column-list__item--wide"><a class="column-list__link" href="#"></a><span class="column-list__left-icon fa-solid fa-heart"></span><span>ナビのタイトル</span></li>
+      </ul>
+    </nav>
+    <nav class="header__search-result header__search-result--hidden">
+      <ul class="column-list column-list--size_m">
+        <li class="column-list__item column-list__item--separate column-list__item--wide"><a class="column-list__link" href="#"></a><span class="column-list__left-icon fa-solid fa-star"></span><span>検索結果</span><span class="column-list__right-icon fa-solid fa-angle-right"></span></li>
+        <li class="column-list__item column-list__item--separate column-list__item--wide"><a class="column-list__link" href="#"></a><span class="column-list__left-icon fa-solid fa-star"></span><span>検索結果</span><span class="column-list__right-icon fa-solid fa-angle-right"></span></li>
+        <li class="column-list__item column-list__item--separate column-list__item--wide"><a class="column-list__link" href="#"></a><span class="column-list__left-icon fa-solid fa-star"></span><span>検索結果</span><span class="column-list__right-icon fa-solid fa-angle-right"></span></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page__main--at_center page__main--bgc_gray">
+    <!-- spot-->
+    <section class="spot"><img class="spot__thumb" src="./img/example1.jpg">
+      <h1 class="spot__title title-accent">ABCキャンプ場</h1>
+      <div class="spot__summary">
+        <p class="text-main">こんな場所です。こんな場所です。こんな場所です。こんな場所です。こんな場所です。</p>
+        <p class="text-main">こんな特徴があります。こんな特徴があります。こんな特徴があります。こんな特徴があります。こんな特徴があります。</p>
+      </div>
+      <ul class="spot__detail column-list">
+        <li class="column-list__item"><span class="column-list__left-icon fa-solid fa-clock"></span><span>9時〜18時</span></li>
+        <li class="column-list__item"><span class="column-list__left-icon fa-solid fa-phone"></span><span>0123-45-6789</span></li>
+        <li class="column-list__item"><span class="column-list__left-icon fa-solid fa-location-dot"></span><span>A県B市C町1-2-3</span></li>
+      </ul>
+    </section>
+  </main>
+  <!-- mask-->
+  <div class="mask mask--hidden"></div>
+  <script src="./js/shower.js"></script>
+  <script src="./js/header.js"></script>
+</body>
